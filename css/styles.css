@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
+
+.aboutMe{
+  font-family: 'Yellowtail', cursive;
+  color: darkorchid;
+  font-size: 45px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#modal {
+    position: absolute;
+    background: url(tint20.png) 0 0 repeat;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    padding: 8px;
+}
+
+#content {
+    border-radius: 8px;
+    background: #fff;
+    padding: 20px;
+}
+
+#close {
+    position: absolute;
+    background: url(close.png) 0 0 no-repeat;
+    width: 24px;
+    height: 27px;
+    display: block;
+    text-indent: -9999px;
+    top: -7px;
+    right: -7px;
+}
+
+html, body {
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+    /*background-color: indigo;*/
+}
+
+div {
+    display: block;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: lavender;
+}
+
+.navbar-inverse .navbar-brand {
+    color: lavender;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:active {
+    color: lightcoral;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: mediumpurple;
+    background-color: transparent;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0px transparent;
+}
+
+.navbar-brand, .nav>li>a {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: black;
+}
+
+.container-fluid {
+    background-color: transparent;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.main-header .navbar {
+    background-color: purple;
+    box-shadow: none;
+    margin-top: auto;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav {
+    padding-left: 0px;
+    list-style: none;
+    float: right;
+}
+
+.collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-right {
+    margin-right: 10%;
+    padding-top: 2%
+}
+#homes {
+  background-color: #182e4a;
+  background-image: url(../css/img/absurdity.png), linear-gradient(140deg, rgba(62, 34, 74, .85), rgba(97, 93, 196, .65)), url(../css/img/computerbackground.jpg);
+  background-position: center;
+  background-size: 3px, cover, cover;height: 1000px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+}
+
+#homes article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+  color: white;
+}
+
+#about {
+background: url(../css/img/computerbackground.jpg) 50% 0 no-repeat min-height: 1000px;
+/*height: 1000px;*/
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  background-color: oldlace;
+  /*-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+}
+
+#about article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+
+.aboutMeWords{
+ padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aboutMeSubHeading{
+  font-style: italic;
+  color: salmon;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    float: left;
+    height: 60px;
+    padding-left: 70px;
+    padding-bottom: 50%;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+#rowSkills{
+  margin-top: : 5%;
+  padding:2%;
+}
+
+.skillsList {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skillsTitle {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.portpic{
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+  border: 6px solid salmon
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eee;
+    height: 100%;
+    width: 100%;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rowPic{
+  margin:0%;
+  padding: 0%;
+}
+
+.skills{
+  background-color: thistle;
+  align-content: center;
+}
+
+blockquote{
+  font-size: 16px;
+  font-style: italic;
+  color:  darkorchid;
+}
+
+#portfolio {
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  padding-bottom: 3%;
+  background-color: ghostwhite;
+  /*-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+}
+
+#contactMe {
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  padding-bottom: 3%;
+  background-color: lavender;
+  /*-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+}
+
+.rowPortfolio{
+  padding-top: 5%;
+}
+
+.links{
+  padding-left: 7%;
+  margin-top: 4%;
+}
+
+.contactMe{
+  font-family: 'Yellowtail', cursive;
+  color: darkorchid;
+  font-size: 45px;
+  padding-left: 5%;
+}

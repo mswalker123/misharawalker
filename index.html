@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+    <title>Mishara Walker</title>
+</head>
+<body ng-controller="controller1" ng-app="myMod">
+<header>
+
+<div class="loader-screen">
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <section id="top-image" class="top-image">
+            <header class="main-header" id="main-header">
+                <div class="col-md-12">
+                    <nav class="navbar" role="navigation">
+                        <h6>  <span class="sr">nav</span> </h6>
+                        <div class="navbar navbar-inverse navbar-fixed-top">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                  <span class = "icon-bar"></span>
+                                  <span class = "icon-bar"></span>
+                                  <span class = "icon-bar"></span>
+                                </button>
+
+                                <a class="navbar-brand" href="#/home" ng-click="scrollTo('homes')"><img src="css/img/mwlogo.png" width="60" height="60"></a>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#/home" class="nav-link" target="_self" ng-click="scrollTo('about')" >about</a></li>
+                                    <li><a href="#/home" class="nav-link" target="_self" ng-click="scrollTo('portfolio')" >portfolio</a></li>
+                                    <li><a href="#/home" class="nav-link" target="_self" ng-click="scrollTo('contact')" >contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+            </header>
+
+
+            <ng-view></ng-view>
+
+
+
+
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js'></script>
+<script src='script/module.js'></script>
+<script src='script/controller.js'></script>
+<script src='script/script.js'></script>
+<script src='script/customdirectives.js'></script>
+</body>
+</html>
